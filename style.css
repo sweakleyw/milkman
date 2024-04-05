@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 20px 5px;
+}
+
+.score-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.cow > img {
+  width: 300px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.cow {
+  display: flex;
+  align-items: flex-start;
+}
+
+#btn {
+  margin: 20px;
+  padding: 15px;
+  background-color: transparent;
+  color: #000000;
+  border: 3px solid #fc8599;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sell-milk {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttons > button {
+  padding: 13px;
+  background-color: #fc8599;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button {
+  padding: 13px;
+  background-color: #fc8599;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 13px;
+  background-color: #fc8599;
+  border: 3px solid #fc8599;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+#milk {
+  width: 60px;
+  margin-right: 15px;
+}
+
+#dollar-sign {
+  width: 60;
+  margin-right: 15px;
+}
+
+.producers {
+  margin: 50px;
+  display: flex;
+  gap: 100px;
+}
+
+#producer-list {
+  display: flex;
+  gap: 50px;
+}
+
+.producer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+img {
+  margin-top: 10px;
+}
